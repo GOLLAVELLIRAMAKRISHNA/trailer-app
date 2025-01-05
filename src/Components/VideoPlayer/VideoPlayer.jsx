@@ -18,12 +18,10 @@ const VideoPlayer = ({ trailer }) => {
         if (!playStatus) {
             videoRef.current.play();
             setPlayStatus(true)
-            videoRef.current.controls = true;
         }
         else {
             setPlayStatus(false)
             videoRef.current.pause();
-            videoRef.current.controls = false;
         }
     }
 
