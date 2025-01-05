@@ -1,0 +1,22 @@
+.year-container {
+    width: 85%;
+    margin: 50px auto;
+}
+
+@media (max-width:1200px) {
+    .year-container {
+        width: 90%;
+    }
+}
+
+@media (max-width:1080px) {
+    .year-container {
+        width: 94%;
+    }
+}
+
+@media (max-width:600px) {
+    .year-container {
+        margin-top: 100px;
+    }
+}

@@ -1,0 +1,26 @@
+.genre_box {
+    margin: 10px 0px 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.genre_box>div {
+    padding: 4px 8px;
+    background-color: transparent;
+    border: 2px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.outline {
+    border-color: var(--bg-color) !important;
+    color: var(--bg-color);
+}
+
+@media (max-width:600px) {
+    .genre_box {
+        gap: 10px;
+    }
+}

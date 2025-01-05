@@ -1,0 +1,22 @@
+.latest-container {
+    width: 85%;
+    margin: 50px auto;
+}
+
+@media (max-width:1200px) {
+    .latest-container {
+        width: 90%;
+    }
+}
+
+@media (max-width:1080px) {
+    .latest-container {
+        width: 94%;
+    }
+}
+
+@media (max-width:600px) {
+    .latest-container {
+        margin-top: 100px;
+    }
+}

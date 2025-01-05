@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Ysabeau+SC:wght@1..1000&display=swap');
+
+:root {
+  --body-bg-color: #222629;
+  --body-text-color: #f9f9f9;
+  --bg-color: #86c232;
+  --box-shadow-color: #7fec3b3b;
+  --nav-bg-color: #474b4f;
+  --footer-bg-color: #1b1e20;
+  --font-xxl: 52px;
+  --font-xl: 42px;
+  --font-lg: 32px;
+  --font-md: 22px;
+  --font-sm: 15px;
+  --font-xs: 10px;
+  --font-style-outfit: Outfit, sans-serif;
+  --font-style-other: Ysabeau SC, sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  width: 100%;
+  font-family: var(--font-style-outfit);
+  background-color: var(--body-bg-color);
+  color: var(--body-text-color);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+.light {
+  --box-shadow-color: #2123214f;
+  --body-bg-color: #f9f9f9;
+  --body-text-color: #222629;
+}

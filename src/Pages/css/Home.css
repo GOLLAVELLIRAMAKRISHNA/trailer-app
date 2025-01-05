@@ -1,0 +1,22 @@
+.home-container {
+    width: 85%;
+    margin: 50px auto;
+}
+
+@media (max-width:1200px) {
+    .home-container {
+        width: 90%;
+    }
+}
+
+@media (max-width:1080px) {
+    .home-container {
+        width: 94%;
+    }
+}
+
+@media (max-width:600px) {
+    .home-container {
+        margin-top: 100px;
+    }
+}

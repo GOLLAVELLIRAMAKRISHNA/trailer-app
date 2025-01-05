@@ -1,0 +1,13 @@
+.container {
+    margin: 20px 0px;
+}
+
+.container>p {
+    display: flex;
+    gap: 5px;
+}
+
+.container>p>span>i {
+    margin-left: 5px;
+    font-size: var(--font-xs);
+}

@@ -1,0 +1,34 @@
+.years_box {
+    margin: 10px 0px 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.years_box>div {
+    padding: 4px 8px;
+    background-color: transparent;
+    border: 2px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.outline {
+    border-color: var(--bg-color) !important;
+    color: var(--bg-color);
+}
+
+.year_items_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+}
+
+@media (max-width:600px) {
+    .year_items_container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .years_box {
+        gap: 14px;
+    }
+}

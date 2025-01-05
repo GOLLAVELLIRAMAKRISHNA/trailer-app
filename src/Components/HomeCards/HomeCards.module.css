@@ -1,0 +1,27 @@
+.container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container>h1 {
+    font-size: var(--font-xl);
+    font-weight: 400;
+}
+
+.card_container {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 30px;
+}
+
+@media (max-width:600px) {
+    .container>h1 {
+        font-size: var(--font-lg);
+    }
+
+    .card_container {
+        grid-template-columns: 1fr 1fr;
+    }
+}

@@ -1,0 +1,22 @@
+.genre-container {
+    margin: 50px auto;
+    width: 85%;
+}
+
+@media (max-width:1200px) {
+    .genre-container {
+        width: 90%;
+    }
+}
+
+@media (max-width:1080px) {
+    .genre-container {
+        width: 94%;
+    }
+}
+
+@media (max-width:600px) {
+    .genre-container {
+        margin-top: 100px;
+    }
+}
