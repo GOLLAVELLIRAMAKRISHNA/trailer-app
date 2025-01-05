@@ -14,7 +14,7 @@ const MovieInfo = ({ trailer }) => {
                 <div>
                     <h3>{trailer.releaseYear}</h3>
                     <p className={style.special}>u/a 13+</p>
-                    <p>{Math.abs(duration / 60).toFixed(2)}sec</p>
+                    <p>Duration {Math.abs(duration / 60).toFixed(2)}sec</p>
                     <p className={style.special}>hd</p>
                     <div className={style.lang}>
                         <p><i className='fa-solid fa-play'></i>Telugu</p>
@@ -55,7 +55,7 @@ const MovieInfo = ({ trailer }) => {
                     </div>
                     <div className={style.row_info}>
                         <label>IMBD Rating</label>
-                        <p>{trailer.movieRating + 2.5}<i className="fa-solid fa-star"></i></p>
+                        <p>{trailer.movieRating + 1.5}<i className="fa-solid fa-star"></i></p>
                     </div>
                     <div className={style.row_info}>
                         <label>Language</label>
